@@ -1,4 +1,4 @@
-arr = input().split()
-A,B = int(arr[0]), int(arr[1])
+A = int(input())
+B = int(input())
 print(A+87)
 print(B%10)

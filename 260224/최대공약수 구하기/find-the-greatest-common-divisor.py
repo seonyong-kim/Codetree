@@ -8,7 +8,7 @@ def GCD(n,m):
     else:
         min = n
     
-    for i in range(2,min):
+    for i in range(1,min):
         if(n % i == 0 & m & i == 0):
             max = i
     

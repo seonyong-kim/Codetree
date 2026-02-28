@@ -4,7 +4,7 @@ M, D = map(int, input().split())
 def checkCal(M,D):
     if M < 1 or M > 12:
         return "No"
-    elif M == (1 or 3 or 5 or 7 or 8 or 10 or 12):
+    elif M in [1, 3, 5, 7, 8, 10, 12]:
         if(D > 0 and D <32):
             return "Yes"
         else:

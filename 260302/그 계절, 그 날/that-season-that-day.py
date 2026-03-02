@@ -31,6 +31,8 @@ def check(Y,M,D):
             print(CheckSeason(M))
         elif(not Yun and D <= 28):
             print(CheckSeason(M))
+        else:
+            print(-1)
     elif(M in [1,3,5,7,8,10,12] and D >= 1 and D <= 31):
         print(CheckSeason(M))
     else:

@@ -1,22 +1,7 @@
 arr = input().split()
 A,B = int(arr[0]), int(arr[1])
 
-if(A >= B):
-    print(1)
-else:
-    print(0)
-
-if(A > B):
-    print(1)
-else:
-    print(0)
-
-if(B >= A):
-    print(1)
-else:
-    print(0)
-
-if(B > A):
-    print(1)
-else:
-    print(0)
+print(int(A >= B))
+print(int(A > B))
+print(int(B >= A))
+print(int(B > A))
